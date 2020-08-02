@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tinos&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,29 +20,39 @@ body {
     height: 336px;
 }
 .hero-h1 {
-    margin-left:30px;
+    /* margin-left:30px; */
     font-size: 28px;
     font-weight: normal;
     margin-top: 41px;
     margin-bottom: 30px;
     font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
 }
 span {
-    font-weight: bold;
+    font-weight: 300px;
 }
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 30px;
 }
 .paragraph {
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-right: 21px;
     font-size: 14px;
     margin-bottom: 27px;
     line-height: 1.5;
-    font-family: monospace;
+    font-family: 'Tinos', serif;
     font-weight: 300;
+}
+form {
+    background-color: #dedede;
+    display:flex;
+    width: 302px;
+    height: 48px;
+    border-radius: 33px;
+
 }
 input {
     background-color: #DEDEDE;
@@ -48,8 +61,11 @@ input {
     height: 48px;
     width: 302px;
     margin-left: 30px;
-    padding-left: 36px;
-    font-family: monospace;
+    padding-right: 40px;
+    /* padding-left: 36px; */
+    font-family: 'Tinos', serif;
+    margin-bottom: 73px;
+    font-family: 'Poppins', sans-serif;
 }
 
 button {
@@ -57,10 +73,10 @@ button {
     background-color: #C0C2C5;
     border: none;
     height: 48px;
-    width: 66px;
-    position: relative;
+    width: 96px;
+    /* position: relative;
     left: 265px;
-    bottom: 48px;
+    bottom: 48px; */
 }
 .button-image {
     width: 17px;
@@ -74,19 +90,21 @@ button {
         background-position: right;
         background-size: 50% 100%;
         height: 100vh;
+        padding-left: 165px;
     }
     .snow-camp{
         width:291px;
         height: 71px;
         margin-top: 65px;
-        margin-left: 140px;
+        /* margin-left: 140px; */
+        border: 2px solid red;
     }
     .snowboard {
         display: none;
         height:50%;
     }
    .hero-h1 {
-       margin-left: 195px;
+       /* margin-left: 195px; */
        font-size: 64px;
        font-weight: normal;
        margin-bottom: 32px;
@@ -98,24 +116,29 @@ button {
    .paragraph {
        font-size: 16px;
        width: 444px;
-       margin-left: 195px;
+       /* margin-left: 195px; */
        line-height: 28px;
        margin-bottom: 40px;
+   }
+   form {
+       height: 56px;
+       width: 445px;
    }
    input {
        height:56px;
        width: 445px;
-       margin-left: 195px;
+       /* margin-left: 195px; */
    }
    button {
        width: 100px;
        height:56px;
-       position: absolute;
+       /* position: absolute;
        left: 541px;
-       bottom: 235px; 
+       bottom: 235px;  */
    }
    .button-image {
        width:17px;
        height:17px;
    }
+
 }
